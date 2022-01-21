@@ -7,11 +7,11 @@ import Car.Options.AutoPilot;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        //Deixe só um modelo descomentado
+        //Only one model commented
         Car car = new ModelX();
         //Car car = new ModelS();
 
-        //Brinque comentando e descomentando essas instâncias
+        //Have fun commenting and uncommenting this instances
         car = new AutoPilot(car);
         car = new AirConditioner(car);
 
